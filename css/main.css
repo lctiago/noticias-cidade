@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    /*border: 1px solid red;*/
+}
+
+#container {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;    
+}
+
+#header {
+    height: 233px;
+    background: url(../img/fundo.png) left top;
+}
+
+#header #logo {
+    margin: 20px 0;
+}
+
+#header #mapa-brasil {
+    float: right;
+}
+
+#header ul#nav-bar {
+    background: #b10333;
+    list-style-type: none;
+    float: left;
+}
+
+#header ul#nav-bar li {
+    float: left;
+}
+
+#header ul#nav-bar a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px 14px;
+    background: url(../img/divisor.png) no-repeat left center;
+}
+
+#header ul#nav-bar a:hover {
+    color: #69001d;
+}
+
+#header ul#nav-bar a.primeiro-link {
+    background: none;
+}
+
+#conteudo-header {
+    width: 750px;
+    margin: 0 auto;
+}
+
+.clear {
+    clear: both;
+}
