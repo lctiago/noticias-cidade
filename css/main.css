@@ -55,3 +55,15 @@
 .clear {
     clear: both;
 }
+
+#container-rodape {
+    background: #294c71;
+    padding: 20px;
+}
+
+#rodape {
+    width: 750px;
+    margin: 0 auto;    
+    text-align: center;
+    color: white;
+}
