@@ -56,6 +56,41 @@
     clear: both;
 }
 
+#principal {
+    width: 750px;
+    margin: 0 auto;
+}
+
+#primario {
+    background: blue;
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+
+#duas-colunas #primario {
+    width: 555px;
+}
+
+#uma-colunas #primario {
+    width: 750px;
+    margin: 0 0 20px 0;
+}
+
+#secundario {
+    background: red;
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+}
+
+#lateral {
+    background: yellow;
+    width: 180px;
+    margin: 0 0 20px -750px;
+    float: left;
+}
+
 #container-rodape {
     background: #294c71;
     padding: 20px;
